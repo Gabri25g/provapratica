@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Passion+One:wght@400;700;900&display=swap');
+
+:root{
+    --font-primary: 'Bad Script', cursive;
+    --font-secondary: 'Passion One', cursive;
+}
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+html, body{
+    height: 100vh
+}
+
+header{
+    text-align: center;
+    background-color: black;
+    color: white;
+    
+}
+header>h1{
+   padding-top: 50px;
+   font-variant: small-caps;
+   font-size: 40px;
+   
+  
+}
+header>p{
+    padding-bottom: 50px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+a:hover{
+    text-decoration: underline;
+    color: fuchsia;
+}
+
+section{
+    line-height: 2em;
+    padding-top: 10vh; 
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    font-family: var(--font-primary-01);
+    font-family:var(--font-secondary) ;
+    font-size: 19px;
+    
+}
+section>p{
+    text-align: justify;
+}
+section.imagem>p{
+    background-color: rgba(0, 0, 0, 0.348);
+    display: inline-block;
+    padding: 10px;
+    color: white;
+}
+.imagem#img01{
+    background-image: url('imagens/tonny.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+ 
+    
+}
+.imagem#img02{
+    background-image: url('imagens/img003.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left top center;   
+}
+.normal>p{
+    color: black;  
+   padding: 10px;
+    
+}
+.imagem{
+    background-color: rgb(62, 62, 62); 
+    
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}

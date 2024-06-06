@@ -55,7 +55,7 @@ section>p{
     text-align: justify;
 }
 section.imagem>p{
-    background-color: rgba(0, 0, 0, 0.348);
+    background-color: rgba(0, 0, 0, 0.674);
     display: inline-block;
     padding: 10px;
     color: white;
@@ -64,7 +64,7 @@ section.imagem>p{
     background-image: url('imagens/tonny.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: center center ;
  
     
 }
@@ -72,7 +72,10 @@ section.imagem>p{
     background-image: url('imagens/img003.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: left top center;   
+    background-position: center top;   
+}
+.imagem#img01,.imagem#img02{
+    background-attachment: fixed;
 }
 .normal>p{
     color: black;  

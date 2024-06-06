@@ -61,7 +61,7 @@ section.imagem>p{
     color: white;
 }
 .imagem#img01{
-    background-image: url('imagens/tonny.png');
+    background-image: url('imagens/tonny\ \(1\).png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center ;
@@ -69,7 +69,7 @@ section.imagem>p{
     
 }
 .imagem#img02{
-    background-image: url('imagens/img003.png');
+    background-image: url('imagens/img005.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;   

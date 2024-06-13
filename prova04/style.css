@@ -49,6 +49,7 @@ section{
     font-family: var(--font-primary-01);
     font-family:var(--font-secondary) ;
     font-size: 19px;
+    box-shadow: inset 1px 4px 10px  rgba(0, 0, 0, 0.561);
     
 }
 section>p{

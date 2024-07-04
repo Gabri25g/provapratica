@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>prova05</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        caption{
+            background-color: rgba(0, 0, 0, 0.724);
+            color: white;
+            padding: 15px;
+            font-weight: bolder;
+        }
+        thead,tfoot{
+            background-color: rgb(173, 72, 72);
+            color: rgb(244, 234, 234);
+            border: 2px solid black;
+            font-weight: bolder;
+        }
+       
+        table{
+            width: 700px;
+            border-collapse: collapse;
+        }
+        td{
+            border: 2px solid black;
+            padding: 7px;
+        }
+       
+        tbody>tr:nth-child(even){
+            background-color: dimgrey;
+            color: white;
+        }
+      .coluna{
+        border: 2px solid black;
+      }
+        
+    </style>
+</head>
+<body>
+    <table>
+        <caption >Filmes Favoritos</caption>
+        <thead>
+            <th scope="row">Grupo</th>
+            <th scope="row">Homens</th>
+            <th scope="row">Mulheres</th>
+            <th scope="row">Filmes</th>
+
+        </thead>
+        <tbody>
+            <tr>
+                <th class="coluna" scope="col">1</th>
+                <td>João</td>
+                <td>Maria</td>
+                <td>Matrix, Titanic, Avatar</td>
+            </tr>
+            <tr>
+                <th class="coluna" scope="col">2</th>
+                <td>Carlos</td>
+                <td>Ana Beatriz</td>
+                <td>Inception, Gladiator, Shrek</td>
+            </tr>
+            <tr>
+                <th class="coluna" scope="col">3</th>
+                <td>Lucas</td>
+                <td>Fernanda</td>
+                <td>Toy Story, Star Wars, Up</td>
+            </tr>
+            <tr>
+                <th class="coluna" scope="col">4</th>
+                <td >Gabriel</td>
+                <td>Julia</td>
+                <td>Jurassic Park, Batman, Thor</td>
+            </tr>
+            <tr>
+                <th class="coluna" scope="col">5</th>
+                <td>Rodrigo</td>
+                <td>Larissa</td>
+                <td>Frozen, Moana, Mulan</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th colspan="4" scope="colgroup">Esta tabela é um exemplo fictício de grupos de pessoas e seus filmes favoritos.</th>
+
+        </tfoot>
+    </table>
+</body>
+</html>
